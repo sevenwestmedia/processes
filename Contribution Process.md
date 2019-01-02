@@ -3,8 +3,11 @@
 Our project use ![GitHub Flow](https://help.github.com/articles/github-flow/) for contributions. In short, Fork, Create a branch, submit a pull request from that branch.
 
 ## Suggested repo setup
-1. Clone your fork (your fork will be `origin`)
-2. `git remote add upstream git@github.com:sevenwestmedia/processes.git`
+1. Fork the repo
+2. Clone your fork (your fork will be `origin`)
+3. Add a remote named `upstream` to your local cloned repository
+    * Command: `git remote add upstream git@github.com:sevenwestmedia/processes.git`
+    * This allows you to push changes to your fork (origin), and pull changes from the main repo (upstream)
 
 ## Workflow
 1. `git checkout master`
